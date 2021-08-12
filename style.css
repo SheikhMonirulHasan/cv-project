@@ -1,0 +1,190 @@
+/*Reset the site margin and padding by set 0 it will work on full site
+it will help to remove the default style of the site.
+---------------------------------------------------------------------
+*/
+*{
+  margin: 0;
+  Padding: 0;
+}
+
+body{
+  background-color: rgb(232, 233, 235);
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Main container of the site*/
+.container{
+  max-width: 1000px;
+  background-color: rgb(224, 243, 237);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header{
+
+}
+
+/* profile image section*/
+.profile-img{
+  width: 100px;
+  height: 120px;
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left
+}
+
+/* Name and position*/
+.bio{
+    float: left;
+    padding: 30px;
+}
+
+/*all the heading tags*/
+h1, h2, h3, h4, h5, h6{
+  color:rgba(11, 79, 226, 0.726);
+}
+
+/*Contact information*/
+.contact{
+  float: right;
+  padding: 30px;
+  line-height: auto;
+  line-height: 0.6cm;
+}
+
+.contact a{
+  text-decoration: none;
+  color: rgba(11, 79, 226, 0.726);
+}
+
+.contact a:hover{
+  color: brown;
+  text-decoration: underline;
+}
+
+.contact a:visited{
+  color: blueviolet;
+}
+/* Header section end*/
+
+/*Using for clear the div*/
+.div-clear{
+  clear: both;
+}
+
+/*Header below heading section*/
+hr{
+  border: solid rgb(170, 120, 170) 2px;
+  width: 100%;
+  margin: 15px auto;
+  border-bottom: none;
+}
+
+/*personal information*/
+#personal-information{
+
+}
+
+.content{
+  margin: 30px;
+
+}
+
+.content-left{
+  width: 35%;
+  float: left;
+}
+
+.content-right{
+  width: 65%;
+  float: left;
+  line-height: 0.7cm;
+}
+
+/* ---------------------------------------------------
+Using the horizontal line for all all other section commonly
+*/
+.common-hr{
+  border: solid rgb(170, 120, 170) 0.5px;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.content-right-left{
+  width: 45%;
+  float: left;
+}
+
+.content-right-left{
+  width: 45%;
+  float: right;
+}
+
+.content-left-right  a{
+  text-decoration: none;
+  color: black;
+}
+.content-left-right a:hover{
+  text-decoration: underline;
+  color: brown;
+}
+.content-right-left a{
+  text-decoration: none;
+  color: black;
+}
+.content-right-left a:hover{
+  text-decoration: underline;
+  color: brown;
+}
+
+.content-right a{
+  text-decoration: none;
+  color: black;
+}
+
+.content-right a:hover{
+  text-decoration: underline;
+  color: brown;
+}
+
+/* reference section*/
+.reference-style{
+line-height: 0.7cm;
+}
+
+.reference p{
+  line-height: 0.9cm;
+}
+
+/*---------------------------------------------------
+Footer section
+---------------------------------------------------*/
+.footer{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  border: 10px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+  }
+
+.footer a:hover{
+  color: brown;
+}
+.footer p{
+  color: white;
+  margin-top: 15px;
+}
+.footer p a{
+  color: rgba(11, 79, 226, 0.726);
+  ;
+}
+
+/*------------------------------------------------------------
+End footer section
+-------------------------------------------------------------*/
